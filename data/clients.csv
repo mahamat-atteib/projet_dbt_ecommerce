@@ -1,0 +1,21 @@
+client_id;nom;email;date_inscription;pays
+1;Alice;alice@example.com;2024-07-02 13:13:56.785298;France
+2;Bob;bob@example.com;2023-12-17 13:13:56.785321;Canada
+3;Charlie;charlie@example.com;2024-04-18 13:13:56.785343;USA
+4;David;david@example.com;2023-09-30 13:13:56.785347;Germany
+5;Eva;eva@example.com;2024-09-04 13:13:56.785350;UK
+6;Frank;frank@example.com;2024-04-01 13:13:56.785355;Italy
+7;Grace;grace@example.com;2023-11-12 13:13:56.785357;Spain
+8;Hannah;hannah@example.com;2024-04-08 13:13:56.785359;Australia
+9;Igor;igor@example.com;2023-11-30 13:13:56.785367;Nigeria
+10;Jack;jack@example.com;2023-10-17 13:13:56.785370;Brazil
+11;Kathy;kathy@example.com;2023-12-14 13:13:56.785372;Mexico
+12;Louis;louis@example.com;2024-08-09 13:13:56.785374;Argentina
+13;Mona;mona@example.com;2024-03-01 13:13:56.785376;Japan
+14;Nina;nina@example.com;2023-12-09 13:13:56.785378;South Korea
+15;Oscar;oscar@example.com;2024-10-17 13:13:56.785379;Russia
+16;Paul;paul@example.com;2024-03-01 13:13:56.785381;USA
+17;Quincy;quincy@example.com;2023-09-21 13:13:56.785383;Nigeria
+18;Rita;rita@example.com;2023-10-18 13:13:56.785385;Egypt
+19;Sam;sam@example.com;2024-03-05 13:13:56.785387;Turkey
+20;Tina;tina@example.com;2024-03-18 13:13:56.785389;China
