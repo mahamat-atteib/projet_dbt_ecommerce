@@ -1,0 +1,57 @@
+version: 2
+
+sources:
+  - name: projet_ecommerce
+    schema: projet_ecommerce  # Dataset BigQuery
+    tables:
+      - name: abonnements
+        description: "Subscription data for e-commerce platform services"
+        columns:
+          - name: abonnement_id
+            description: "Unique identifier for each subscription"
+            tests:
+              - not_null  # Clé primaire
+          - name: client_id
+            description: "ID of the client who subscribed"
+            tests:
+              - not_null  # Clé étrangère
+          - name: service
+            description: "Service to which the client is subscribed"
+          - name: statut
+            description: "Subscription status (active or inactive)"
+          - name: date_abonnement
+            description: "Date of subscription"
+
+      - name: achats
+        description: "Sales transactions data for the e-commerce platform"
+        columns:
+          - name: achat_id
+            description: "Unique identifier for each purchase"
+            tests:
+              - not_null  # Clé primaire
+          - name: client_id
+            description: "ID of the client who made the purchase"
+            tests:
+              - not_null  # Clé étrangère
+          - name: produit
+            description: "Name of the purchased product"
+          - name: montant
+            description: "Total amount of the purchase"
+          - name: date_achat
+            description: "Date when the purchase was made"
+
+      - name: clients
+        description: "Client data for e-commerce platform"
+        columns:
+          - name: client_id
+            description: "Unique identifier for each client"
+            tests:
+              - not_null  # Clé primaire
+          - name: nom
+            description: "Name of the client"
+          - name: email
+            description: "Email address of the client"
+          - name: date_inscription
+            description: "Date the client registered"
+          - name: pays
+            description: "Country of residence of the client"

@@ -1,0 +1,14 @@
+### CREATION D'UN ENVIRONNEMENT ET DE JOB SUR DBT
+
+création d'un environnement d'exécution avant de créer un job :
+un environnement de "developpement" ou de "production"
+deploy--->Environnements--->Create Environment--->Remplir le reste
+
+
+Pour une exécution automatisée des modèles, on doit créer "un job" sur "dbt cloud"
+création d'un job : 
+deploy--->Neu job--->Choisir Environnement--->commande--->fréquence d'exécution
+
+
+D'autres possibilités pour exécuter automatiquement les modèles existent : 
+airflow, GitHub Actions, etc.
